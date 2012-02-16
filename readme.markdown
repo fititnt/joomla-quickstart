@@ -1,4 +1,5 @@
-PHP | Joomla | Quickstart of Joomla extension
+#### PHP | Joomla | Quickstart of Joomla extension
+
 Look inside each directory for more info
 
 All subdiretories here contains one quickstart for some diferent types of Joomla extensions. The next
@@ -17,9 +18,11 @@ rm -rf .git/refs/original/
 git reflog expire --expire=now --all
 git gc --aggressive --prune=now
 </pre>
+
 Reference: http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository
 
 TIP 1: after clone, maybe you wanna change the origin from this repository to your repository git. You
-can do changing /.git/config file, whre have "url = git@github.com:fititnt/joomla-template.git" to
+can do changing /.git/config file, whre have ```"url = git@github.com:fititnt/joomla-template.git"``` to
 your repository.
+
 TIP 2: digit gitk command on command line and will open one Git commit viewer 
