@@ -10,7 +10,7 @@ extension in one same git repository. At least if sources are from diferent plac
 
 <pre>
 #Clone entire repository
-git clone --no-hardlinks git@github.com:fititnt/joomla-template.git .
+git clone --no-hardlinks git@github.com:fititnt/joomla-quickstart.git.
 #Choose subdirectory. library/simple, for example
 git filter-branch --subdirectory-filter joomla/ HEAD
 #clean up what is not necessary
@@ -22,7 +22,7 @@ git gc --aggressive --prune=now
 Reference: http://stackoverflow.com/questions/359424/detach-subdirectory-into-separate-git-repository
 
 TIP 1: after clone, maybe you wanna change the origin from this repository to your repository git. You
-can do changing /.git/config file, whre have ```"url = git@github.com:fititnt/joomla-template.git"``` to
+can do changing /.git/config file, whre have ```"url = git@github.com:fititnt/joomla-quickstart.git"``` to
 your repository.
 
 TIP 2: digit gitk command on command line and will open one Git commit viewer 
