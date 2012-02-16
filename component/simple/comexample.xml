@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension 
+	type="component" 
+	version="2.5.0" 
+	method="upgrade"
+	>
+
+	<name>COM_COMEXAMPLE</name>
+	<creationDate>{createddate}</creationDate>
+	<author>{author}</author>
+	<authorEmail>{authoremail}</authorEmail>
+	<authorUrl>{authorurl}</authorUrl>
+	<copyright>{copyright}</copyright>
+	<license>{license}</license>
+	<version>{version}</version>
+	<description>COM_COMEXAMPLE_DESCRIPTION</description>
+
+	<scriptfile>script.php</scriptfile>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>comexample.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+
+	<administration>
+		<menu>COM_COMEXAMPLE_MENU</menu>
+		<submenu>
+			<menu view="comexamples">COM_COMEXAMPLE_SUBMENU_EXAMPLES</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>comexample.php</filename>
+			<filename>controller.php</filename>
+			<filename>config.xml</filename>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>models</folder>
+			<folder>views</folder>
+			<folder>language</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+		</files>
+	</administration>
+
+</extension>
+
