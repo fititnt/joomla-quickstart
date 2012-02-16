@@ -8,9 +8,9 @@
  * @copyright       {copyright}
  * @license         {license}
  * 
- * @note            Startup based on https://github.com/fititnt/template
+ * @see https://github.com/fititnt/joomla-quickstart
  */
-defined('JPATH_PLATFORM') or die('Restricted access');
+defined('JPATH_PLATFORM') or die;
 
 class LoadSubpackage {
     

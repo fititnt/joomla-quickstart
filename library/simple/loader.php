@@ -8,26 +8,28 @@
  * @copyright       {copyright}
  * @license         {license}
  * 
- * @note            Startup based on https://github.com/fititnt/template
+ * @see https://github.com/fititnt/joomla-quickstart
  */
-defined('JPATH_PLATFORM') or die('Restricted access');
+defined('JPATH_PLATFORM') or die;
 
 abstract class LibExample {
 
-    public static $subpackage = null;
+	/**
+	 * LibxampleSubpackage Object
+	 * @var object 
+	 */
+	public static $subpackage = null;
 
+	/**
+	 * Return LibxampleSubpackage Object, creating if aready doesent exists
+	 */
+	public static function getSubpackage() {
+		if (!self::$subpackage) {
+			jimport('libexample.subpackage.load');
 
-    /*
-     * Return Facebook Object, creating if aready doesent exists
-     */
-
-    public static function getSubpackage() {
-        if (!self::$subpackage) {
-            jimport('libexample.subpackage.load');
-
-            self::$subpackage = LoadSubpackage::getInstance();
-        }
-        return self::$subpackage;
-    }
+			self::$subpackage = LoadSubpackage::getInstance();
+		}
+		return self::$subpackage;
+	}
 
 }
