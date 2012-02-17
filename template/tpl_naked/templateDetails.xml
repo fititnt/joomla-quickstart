@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+    version="1.7"
+    type="template"
+    client="site"
+    >
+    <name>naked</name>
+    <creationDate>2011-10-05</creationDate>
+    <author>Emerson Rocha Luiz</author>
+    <authorEmail>emerson@webdesign.eng.br</authorEmail>
+    <authorUrl>http://fititnt.org</authorUrl>
+    <copyright>Copyright (C) 2005 - 2011 Webdesign Assessoria em Tecnologia da Informacao.</copyright>
+    <license>GNU General Public License version 3. See license.txt</license>
+    <version>1.0RC</version>
+    <description>TPL_NAKED_XML_DESCRIPTION</description>
+    <files>
+        <folder>html</folder>
+        <folder>language</folder>
+        <filename>index.php</filename>
+        <filename>index.html</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+    </files>
+    <positions>
+        <position>before</position>
+        <position>after</position>
+    </positions>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_naked.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_naked.sys.ini</language>
+    </languages>
+</extension>
