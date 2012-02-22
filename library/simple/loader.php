@@ -12,6 +12,9 @@
  */
 defined('JPATH_PLATFORM') or die;
 
+/**
+ * @todo Renomear para ExampleFactory (fititnt, 2012-02-22 03:42) 
+ */
 abstract class LibExample {
 
 	/**

@@ -26,6 +26,7 @@ Rename the files, and also search and replace all occorences of:
 STRING to replace   - Example
 
 COM_COMEXAMPLE      - COM_FITITNT
+ComExample          - Fititnt
 comexample          - fititnt
 {name}              - Example Component
 {description}       - Component comexample: example library

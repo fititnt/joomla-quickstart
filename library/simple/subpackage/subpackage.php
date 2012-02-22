@@ -20,7 +20,7 @@ defined('JPATH_PLATFORM') or die;
  * @see https://github.com/fititnt/template/tree/master/php/class-fluent-interface
  * 
  */
-class LibxampleSubpackage {
+class LibexampleSubpackage {
 
 	/**
 	 * @var Mixed Generic mixed variable description
