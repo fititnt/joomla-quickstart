@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS #__mod_jexample (
+CREATE TABLE IF NOT EXISTS #__mod_example (
 	`id` INT NOT NULL AUTO_INCREMENT ,
 	`message` VARCHAR( 255 ) NOT NULL ,
 PRIMARY KEY ( `id` )

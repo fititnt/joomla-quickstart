@@ -1,13 +1,16 @@
 <?php
 /*
- * @package         Mod_jcbr
- * @author          Emerson Rocha Luiz ( emerson@webdesign.eng.br - @fititnt -  http://fititnt.org )
- * @copyright       Copyright (C) 2011 Joomla! Coders Brazil ( @JCoderBR - http://jcoder.org )
- * @license         GPL3
+ * @package         {packagename}
+ * @subpackage
+ * @author          {authorname}
+ * @version         {version}
+ * @copyright       {copyright}
+ * @license         {license}
+ * 
+ * @note            Startup based on https://github.com/fititnt/template
  */
-// no direct access
 defined('_JEXEC') or die;
 ?>
-<div class="jcbr<?php echo $moduleclass_sfx ?>">
-	<?php echo $module->content;?>
+<div class="mod_example<?php echo $moduleclass_sfx ?>">
+	<?php echo $module->content; ?>
 </div>
